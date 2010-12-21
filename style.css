@@ -1,10 +1,5 @@
 @CHARSET "UTF-8";
 
-/* ASU Light Gray #8f8f8f
- * ASU Gold #ffcc33
- * Medium Gray #585858
- * Dark Gray #404040;
- */
 html,body,div,h1,h2,h3,h4,ul {
 	margin: 0px;
 	padding: 0px;
@@ -26,7 +21,6 @@ body {
 }
 
 div#body-sub {
-	background: transparent url("images/bg_stripe.png") repeat-x;
 }
 
 h1 {
@@ -56,9 +50,6 @@ img {
 div#wrapper {
 	margin: 0px auto;
 	width: 1003px;
-	background: transparent url("images/vert_tile.png") repeat-y scroll
-		center top;
-		overflow: auto;
 }
 
 div#container {
@@ -68,10 +59,11 @@ div#container {
 }
 
 div#header {
-	background-color: #ffdd78;
-	padding: 10px;
-	height: 60px;
-	border-bottom: 5px solid white;
+	background-color: #600;
+    border: 1px solid black;
+	padding: 3px;
+	height: 30px;
+    margin-bottom:5px;
 }
 
 div#main-content {
@@ -83,6 +75,7 @@ div#sidepanel {
 	float: left;
 	margin-top: -1px;
 	color: white;
+    background-color:#500
 }
 
 div#sidepanel a {
@@ -90,7 +83,7 @@ div#sidepanel a {
 }
 
 div#body-content {
-	background-color: #dae3de;
+	background-color: #dadada;
 	margin-left: 206px;
 	padding: 10px;
 }
@@ -106,8 +99,6 @@ div#theme-generator {
 
 #footer {
 	width: 1003px;
-	background: transparent url("images/vtile_cap.png") repeat-y scroll
-		center bottom;
 	height: 50px;
 	margin: 0px auto;
 }
@@ -117,10 +108,8 @@ div#theme-generator {
 }
 
 #sidepanel .box-title {
-	border-bottom: 1px solid white;
-	border-top: 1px solid white;
 	padding: 4px;
-	background-color: #3e5414;
+	background-color: #300;
 	color: white;
 	text-align: center;
 }
@@ -150,7 +139,6 @@ div.box {
 /********* users **********/
 #css-user-login {
 	margin-bottom: 12px;
-	padding : 5px;
 }
 
 #user-panel span {
@@ -161,7 +149,6 @@ div.box {
 /******** search ***********/
 div#search-bar {
 	float: right;
-	margin-top: 20px;
 	text-align: center;
 }
 
